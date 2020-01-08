@@ -24,7 +24,7 @@ class _DeltaClockState extends State<DeltaClock> {
     _updateTime();
   }
 
-  
+
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +32,7 @@ class _DeltaClockState extends State<DeltaClock> {
 
     return Container(
       //TODO: Change color to gradient
-      color: Colors.blueGrey,
+      color: Colors.deepOrange,
       child: Center(
         child: Text(DateFormat('HH:mm').format(_dateTime),
             style: TextStyle(fontSize: fontSize)),
