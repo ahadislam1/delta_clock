@@ -20,10 +20,15 @@ class _DeltaClockState extends State<DeltaClock> {
   Widget build(BuildContext context) {
     final fontSize = MediaQuery.of(context).size.width / 3.5;
 
-    return Center(
-      child: Text(DateFormat('HH:mm').format(_dateTime),
-          style: TextStyle(fontSize: fontSize)
-          ),
+    return Container(
+      //TODO: Change color to gradient
+      color: Colors.blueGrey,
+      child: Center(
+        child: Text(DateFormat('HH:mm').format(_dateTime),
+            style: TextStyle(fontSize: fontSize)
+            ),
+      ),
     );
   }
 }
+
