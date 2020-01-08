@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'customizer.dart';
 import 'model.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
